@@ -4,6 +4,7 @@ Deep Stacking Kernel Machines for the Data-driven Multi-item One-warehouse Multi
 This archive is distributed in association with the INFORMS Journal on Computing under the MIT License.  
 This repository contains supporting material for the paper "Deep Stacking Kernel Machines for the Data-driven Multi-item One-warehouse Multi-retailer Problems with Backlog and Lost Sales" by Zhen-Yu Chen, and Minghe Sun.  
 Cite  
+---
 To cite the contents of this repository, please cite both the paper and this repo, using the following DOIs.  
 https://doi.org/10.1287/ijoc.2022.0365  
 https://doi.org/10.1287/ijoc.2022.0365.cd  
@@ -18,10 +19,13 @@ Below is the BibTex for citing this version of the code.
   note =           {Available for download at https://github.com/INFORMSJoC/2022.0365)},  
 }  
 Description  
+---
 The one-warehouse multi-retailer (OWMR) problem is an inventory control problem in a two-echelon supply chain. This study extends the OWMR problem to the data-driven multi-item OWMR problems with backlog and lost sales, designs a new deep network structure that is suitable for the specific multi-item OWMR problems, and develops the LRTO algorithm and the greedy heuristic.  
 Data  
+---
 The two publically available real-world retail datasets from Walmart used in this study are available at https://www.kaggle.com/competitions/m5-forecasting-accuracy and https://www.kaggle.com/competitions/walmart-recruiting-sales-in-stormy-weather/data. The MAT-files were used in the MATLAB and contain the transformed data described as high-dimensional tensors. Note that, due to the large volume of the MAT-file for the first, i.e., M5-competition, dataset, the data subset about the first 100 products extracted from the 3429 products was obtained to facilitate uploading.  
  Codes  
+ ---
 The folder contains the M-files as the key codes of the proposed DSKMs for the OWMR problem with backlog and that with lost sales and without considering censored data.  
 Replicating  
 To get the results of the DSKM for the OWMR problem with backlog by using the LRTO algorithm, please run the following 4 codes in sequence in the codes folder:  
