@@ -18,8 +18,7 @@ Below is the BibTex for citing this version of the code.
 }  
 ## Description  
 The one-warehouse multi-retailer (OWMR) problem is an inventory control problem in a two-echelon supply chain. This study extends the OWMR problem to the data-driven multi-item OWMR problems with backlog and lost sales, designs a new deep network structure that is suitable for the specific multi-item OWMR problems, and develops the LRTO algorithm and the greedy heuristic.  
-Data  
----
+## Data  
 The two publically available real-world retail datasets from Walmart used in this study are available at https://www.kaggle.com/competitions/m5-forecasting-accuracy and https://www.kaggle.com/competitions/walmart-recruiting-sales-in-stormy-weather/data. The MAT-files were used in the MATLAB and contain the transformed data described as high-dimensional tensors. Note that, due to the large volume of the MAT-file for the first, i.e., M5-competition, dataset, the data subset about the first 100 products extracted from the 3429 products was obtained to facilitate uploading.  
 ## Codes  
 The folder contains the M-files as the key codes of the proposed DSKMs for the OWMR problem with backlog and that with lost sales and without considering censored data.  
