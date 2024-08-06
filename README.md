@@ -20,11 +20,11 @@ Below is the BibTex for citing this version of the code.
 @article{Chen2024IJOC,
   author =        {Zhen-Yu Chen and Minghe Sun}, 
   publisher =     {INFORMS Journal on Computing},
-  title =         { Deep Stacking Kernel Machines for the Data-driven Multi-item One-warehouse Multi-retailer Problems with Backlog and Lost Sales},
+  title =         {Deep Stacking Kernel Machines for the Data-driven Multi-item One-warehouse Multi-retailer Problems with Backlog and Lost Sales},
   year =          {2024},
   doi =           {10.1287/ijoc.2022.0365.cd},
   url =           {https://github.com/INFORMSJoC/2022.0365},
-  note =           {Available for download at https://github.com/INFORMSJoC/2022.0365},
+  note =          {Available for download at https://github.com/INFORMSJoC/2022.0365},
 }
 ```
 
