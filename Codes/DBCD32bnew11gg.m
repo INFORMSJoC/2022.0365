@@ -1,5 +1,4 @@
 function ytrain1=DBCD32bnew11gg(aa,aax,bb,r,th,x,y,lanf,c,qq,p,tt,j,i,ytrain0)
-%Training set, matrix computation£¬ÐÞ¸Äºó°æ±¾,¿¼ÂÇÆ«ÖÃ
 n1=length(aa(1,1,1,:));
 n2=length(x(1,1,:,1,1));
 yy2=aa(i,j,:,tt)-aax(i,j,:,tt)+bb(i,j,:,tt)-repmat(r(i,1),1,1,n2)-repmat(p(i,tt),1,1,n2).*repmat(th(j,1),1,1,n2)-repmat(lanf*c(i,j,tt),1,1,n2);
