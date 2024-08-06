@@ -1,5 +1,4 @@
 function [aa,aax,bb,o,x0,y0]=DBCD60block2bpnew15LS(x,y,r,th,p,lanf,c,qq,h,d)
-%内点法，包含偏置项，分块，反向算法，算法修改为反向迭代库存更新，删除if语句，考虑订货量和需求不为负数，多步预测,修改b的计算
 n1=length(x(1,1,1,:,1));
 n2=length(x(1,1,:,1,1));
 n3=length(x(1,:,1,1,1));
